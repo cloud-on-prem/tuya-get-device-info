@@ -1,0 +1,24 @@
+{
+  "name": "tuya-cli",
+  "version": "1.0.0",
+  "description": "Tuya CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "axios": "^1.3.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "tuyapi": "github:codetheweb/tuyapi",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24"
+  }
+}
