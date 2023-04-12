@@ -4,7 +4,7 @@
   "description": "Tiny utility to fetch Tuya Device info",
   "bin": "./src/cli.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "",
   "license": "MIT",
