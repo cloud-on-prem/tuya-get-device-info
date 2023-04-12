@@ -2,7 +2,9 @@
   "name": "tuya-cli",
   "version": "1.0.0",
   "description": "Tuya CLI",
-  "main": "index.js",
+  "bin": {
+    "tuya-local-key-getter": "./src/cli.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
