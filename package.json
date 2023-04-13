@@ -1,6 +1,6 @@
 {
   "name": "tuya-get-device-info",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Tiny utility to fetch Tuya Device info",
   "bin": "./src/cli.ts",
   "scripts": {
@@ -10,9 +10,11 @@
   "license": "MIT",
   "dependencies": {
     "@tuya/tuya-connector-nodejs": "^2.1.2",
-    "dotenv": "^16.0.3",
-    "yargs": "^17.7.1",
     "@types/node": "^18.15.11",
-    "@types/yargs": "^17.0.24"
+    "@types/yargs": "^17.0.24",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "yargs": "^17.7.1"
   }
 }
